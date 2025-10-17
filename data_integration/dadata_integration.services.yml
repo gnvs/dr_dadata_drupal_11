@@ -1,0 +1,4 @@
+services:
+  dadata_integration.client:
+    class: Drupal\dadata_integration\Service\DadataClient
+    arguments: ['@config.factory']

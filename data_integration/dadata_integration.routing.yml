@@ -1,0 +1,15 @@
+dadata_integration.settings:
+  path: '/admin/config/services/dadata'
+  defaults:
+    _form: '\Drupal\dadata_integration\Form\DadataSettingsForm'
+    _title: 'Настройки Dadata API'
+  requirements:
+    _permission: 'administer site configuration'
+
+dadata_integration.search:
+  path: '/dadata'
+  defaults:
+    _form: '\Drupal\dadata_integration\Form\DadataSearchForm'
+    _title: 'Поиск организации по ИНН'
+  requirements:
+    _permission: 'access content'

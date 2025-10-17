@@ -1,0 +1,7 @@
+name: Dadata Integration
+type: module
+description: 'Интеграция с Dadata API (поиск по ИНН, настройка токена).'
+core_version_requirement: ^10 || ^11
+package: Custom
+dependencies:
+  - drupal:system

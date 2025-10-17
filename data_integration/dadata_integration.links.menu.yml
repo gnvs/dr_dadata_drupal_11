@@ -1,0 +1,6 @@
+dadata_integration.settings:
+  title: 'Dadata API'
+  description: 'Настройки токена и ключа для Dadata API.'
+  parent: system.admin_config_services
+  route_name: dadata_integration.settings
+  weight: 10
